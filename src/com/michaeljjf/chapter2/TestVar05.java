@@ -11,7 +11,7 @@ public class TestVar05 {
     public static void main(String[] args) {
         //定义整数类型的变量：
         //给变量赋值的时候，值可以为不同进制的：
-        int num1 = 12 ;//默认情况下赋值就是十进制的情况
+        int num1 = 12;//默认情况下赋值就是十进制的情况
         System.out.println(num1);
         int num2 = 012;//前面加上0，这个值就是八进制的
         System.out.println(num2);
@@ -35,7 +35,6 @@ public class TestVar05 {
         //注意：只有这个数超出int类型的范围了后面才需要加上L，否则无需加L也可以赋值给long类型：
         long num6 = 12;
         System.out.println(num6);
-
 
 
     }

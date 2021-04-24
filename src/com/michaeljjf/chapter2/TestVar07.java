@@ -1,7 +1,7 @@
 package com.michaeljjf.chapter2;
 
 public class TestVar07 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //定义字符类型的变量：
         char ch1 = 'a';
         System.out.println(ch1);
@@ -23,7 +23,7 @@ public class TestVar07 {
         \将后面的普通字符转换为特殊含义
         */
         char ch7 = '\n';
-        System.out.println("aaa"+ch7+"bbb");
+        System.out.println("aaa" + ch7 + "bbb");
 
         System.out.println("aaa\nbbb");// \n  换行
 

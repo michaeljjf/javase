@@ -3,7 +3,7 @@ package com.michaeljjf.chapter2;
 import java.util.Scanner;
 
 public class TestVar11 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //实现功能：求圆的周长和面积
         //【1】提取变量：提取变量，就是为了一劳永逸，以后只要改变变量的值，下面只要用到这个变量的地方，取值也都发生变化了
         //【2】一个变量被final修饰，这个变量就变成了一个常量，这个常量的值就不可变了
@@ -19,12 +19,12 @@ public class TestVar11 {
         int r = sc.nextInt();
 
         //求周长：
-        double c = 2*PI*r;
-        System.out.println("周长为："+c);
+        double c = 2 * PI * r;
+        System.out.println("周长为：" + c);
 
         //求面积：
         //PI = 9.29;报错：TestVar11.java:12: 错误: 无法为最终变量pi分配值
-        double s = PI*r*r;
-        System.out.println("面积为："+s);
+        double s = PI * r * r;
+        System.out.println("面积为：" + s);
     }
 }

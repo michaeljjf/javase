@@ -1,7 +1,7 @@
 package com.michaeljjf.chapter2;
 
 public class TestVar06 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //浮点类型的常量有两种形式：
         //十进制形式：
         double num1 = 3.14;
@@ -21,7 +21,7 @@ public class TestVar06 {
         //注意：我们最好不要进行浮点类型的比较：
         float f2 = 0.3F;
         double d2 = 0.3;
-        System.out.println(f2==d2);
+        System.out.println(f2 == d2);
         /*
         区别：
         = 赋值运算：  将等号右侧的值赋给等号左侧
