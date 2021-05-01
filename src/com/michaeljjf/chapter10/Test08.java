@@ -25,7 +25,7 @@ public class Test08 {
         //获取当前日期中的日：
         int nowDay = cal.get(Calendar.DATE);
         //将日期调为本月的1号：
-        cal.set(Calendar.DATE,1);
+        cal.set(Calendar.DATE, 1);
         //获取这个一号是本周的第几天：
         int num = cal.get(Calendar.DAY_OF_WEEK);
         /*System.out.println(num);*/
@@ -40,14 +40,14 @@ public class Test08 {
         //空出来的日子也要放入计数器：
         count = count + day;
         //遍历：从1号开始到maxDay号进行遍历：
-        for (int i = 1; i <= maxDay ; i++) {
-            if(i == nowDay){//如果遍历的i和当前日子一样的话，后面多拼一个*
-                System.out.print(i+"*"+"\t");
-            }else{
-                System.out.print(i+"\t");
+        for (int i = 1; i <= maxDay; i++) {
+            if (i == nowDay) {//如果遍历的i和当前日子一样的话，后面多拼一个*
+                System.out.print(i + "*" + "\t");
+            } else {
+                System.out.print(i + "\t");
             }
             count++;//每在控制台输出一个数字，计数器做加1操作
-            if(count%7 == 0){//当计数器的个数是7的倍数的时候，就换行操作
+            if (count % 7 == 0) {//当计数器的个数是7的倍数的时候，就换行操作
                 System.out.println();
             }
         }

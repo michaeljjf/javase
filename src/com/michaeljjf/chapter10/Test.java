@@ -6,7 +6,7 @@ public class Test {
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
         //“物极必反”原理：
-        System.out.println(Integer.MAX_VALUE+1);
-        System.out.println(Integer.MIN_VALUE-1);
+        System.out.println(Integer.MAX_VALUE + 1);
+        System.out.println(Integer.MIN_VALUE - 1);
     }
 }

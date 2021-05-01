@@ -16,9 +16,9 @@ public class TestCalendar {
         System.out.println(calendar.getActualMaximum(Calendar.DATE));//获取当月日期的最大天数
         System.out.println(calendar.getActualMinimum(Calendar.DATE));//获取当月日期的最小天数
         // set方法：可以改变Calendar中的内容
-        calendar.set(Calendar.YEAR,1990);
-        calendar.set(Calendar.MONTH,3);
-        calendar.set(Calendar.DATE,16);
+        calendar.set(Calendar.YEAR, 1990);
+        calendar.set(Calendar.MONTH, 3);
+        calendar.set(Calendar.DATE, 16);
         System.out.println(calendar);
         //String--->Calendar:
         //分解：

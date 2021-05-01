@@ -20,7 +20,7 @@ public class TestUtilDate {
             System.out.println(i);
         }
         long endTime = System.currentTimeMillis();
-        System.out.println(endTime-startTime);
+        System.out.println(endTime - startTime);
 
     }
 }
