@@ -18,7 +18,7 @@ public class TestDelayQueue {
         System.out.println(dq);
         try {
             User user = dq.take();
-            System.out.println("用户：[" + user.getId() + "],[" + user.getName() + "]上机时间到，自动退出游戏");
+            System.out.println("用户：[" + user.getId() + "],[" + user.getName() + "]下机时间到，自动退出游戏");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
