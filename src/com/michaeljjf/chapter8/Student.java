@@ -26,7 +26,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "[" + this.name + "]";
+        return "[name:" + this.name + ",age:" + this.age + "]";
     }
 
     public void study() {

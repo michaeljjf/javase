@@ -23,7 +23,7 @@ public class TestListIterator {
         System.out.println(it.hasPrevious());
 
         //逆向遍历：
-        while(it.hasPrevious()){
+        while (it.hasPrevious()) {
             System.out.println(it.previous());
         }
 
