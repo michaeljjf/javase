@@ -43,7 +43,7 @@ public class Product {
             if (flag) {
                 try {
 //                    wait();
-                    produceCondition.wait();
+                    produceCondition.await();// 阻塞
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -74,7 +74,7 @@ public class Product {
                 // flag == false没有商品，等待生产者生产
                 try {
 //                    wait();
-                    consumeCondition.await();
+                    consumeCondition.await();// 阻塞
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
