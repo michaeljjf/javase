@@ -3,7 +3,7 @@ package com.michaeljjf.chapter13;
 public class TestThread01 extends Thread {
     @Override
     public void run() {
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 1000; i++) {
             System.out.println(Thread.currentThread().getName() + ":" + i);
         }
     }
@@ -12,8 +12,8 @@ public class TestThread01 extends Thread {
 class TestThread02 extends Thread {
     @Override
     public void run() {
-        for (int i = 20; i <= 30 ; i++) {
-            System.out.println(Thread.currentThread().getName() + ":" +i);
+        for (int i = 20; i <= 30; i++) {
+            System.out.println(Thread.currentThread().getName() + ":" + i);
         }
     }
 }
