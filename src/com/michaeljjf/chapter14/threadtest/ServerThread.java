@@ -19,7 +19,7 @@ public class ServerThread extends Thread {
         try {
             inputStream = socket.getInputStream();
             objectInputStream = new ObjectInputStream(inputStream);
-            User user = (User)objectInputStream.readObject();
+            User user = (User) objectInputStream.readObject();
             boolean flag = false;
             if ("jiangjf".equals(user.getName()) && "123".equals(user.getPwd())) {
                 flag = true;
