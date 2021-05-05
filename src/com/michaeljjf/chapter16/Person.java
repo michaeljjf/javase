@@ -31,13 +31,13 @@ public class Person {
     }
 
     public Person() {
-
+        super();
     }
 
     public Person(String name, int age, double height) {
-        this.name = name;
-        this.age = age;
-        this.height = height;
+        this.setName(name);
+        this.setAge(age);
+        this.setHeight(height);
     }
 
     @Override

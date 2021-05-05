@@ -5,5 +5,11 @@ public class Test {
         Person person = new Person();
         System.out.println(person.toString());
         System.out.println(Math.random());
+
+        Student student = new Student();
+        student.display();
+
+        Demo demo = new Demo();
+        System.out.println(demo.toString());
     }
 }
