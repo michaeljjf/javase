@@ -10,7 +10,7 @@ public class Test {
         Frame frame = new Frame();
         frame.setSize(800, 600);
         frame.setResizable(false);
-        frame.setTitle("tank war");
+        frame.setTitle("坦克大战");
         frame.setVisible(true);
 
         frame.addWindowListener(new WindowAdapter() {
