@@ -9,8 +9,15 @@ public class Test {
     static int sid;
 
     public static void main(String[] args) {
-        Math.random();
-        System.out.println(random());
+
+        Girl girl = new Girl();
+        Animal animal = new Dog();
+        girl.play(animal);
+        animal = new Cat();
+        girl.play(animal);
+
+//        Math.random();
+//        System.out.println(random());
 
 //        Test test = new Test();
 //        test.id = 11;
