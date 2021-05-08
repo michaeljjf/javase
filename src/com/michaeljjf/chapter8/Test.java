@@ -10,11 +10,14 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Girl girl = new Girl();
-        Animal animal = new Dog();
-        girl.play(animal);
-        animal = new Cat();
-        girl.play(animal);
+//        Girl girl = new Girl();
+//        Animal animal = new Dog();
+//        girl.play(animal);
+//        animal = new Cat();
+//        girl.play(animal);
+
+        Animal an = PetStore.getAnimal("猫");
+        an.shout();
 
 //        Math.random();
 //        System.out.println(random());
