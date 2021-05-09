@@ -10,6 +10,9 @@ public class Test {
         final Dog dog = new Dog();
         dog.setName("张三");
         dog.setAge(12);
+        dog.shout();
+        dog.swimming();
+        SwimmingAbility.a();
         // dog = new Dog();
 
         // 3、final修饰引用类型，但方法中传递的是地址，所以方法中可以改变地址
